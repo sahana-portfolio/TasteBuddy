@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="description" content="An Amazon Bedrock playground">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="og:title" content="PartyRock">
+    <meta name="og:description" content="An Amazon Bedrock playground">
+    <meta name="og:image" content="/assets/e4257e70d0c9e40b4990/og/image.png">
+    <meta charset="utf-8" />
+    <meta name="user-status" value="registered" />
+    <meta name="stage-name" value="prod" />
+    <meta name="llm-username" value="Sahana3020" />
+    <meta name="useDataForServiceImprovement" value="true" />
+    <meta name="nonce" value="wJWm1AtK+WNAGybFG3xcZg==" />
+    <meta property="csp-nonce" nonce="wJWm1AtK+WNAGybFG3xcZg==" />
+    <meta name="assetsHashPrefix" value="e4257e70d0c9e40b4990" />
+    <meta name="rum-config" value="{&quot;guestRoleArn&quot;:&quot;arn:aws:iam::915417107451:role/PartyRock-prod-AppCloudwatchRumIdentityPoolUnauthe-1IFECG8INU7YU&quot;,&quot;identityPoolId&quot;:&quot;us-east-1:8c8cd43d-404c-4034-8912-89744e0100f6&quot;,&quot;applicationId&quot;:&quot;0c01bad7-9ae0-419b-8575-b7bb9be4f03c&quot;,&quot;region&quot;:&quot;us-east-1&quot;}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, interactive-widget=resizes-content" />
+    <meta name="cognito-domain" value="https://partyrock-prod-us-east-1.auth.us-east-1.amazoncognito.com" />
+    <meta name="viewer-data" value="{&quot;city&quot;:&quot;Bengaluru&quot;,&quot;country&quot;:&quot;IN&quot;}" />
+        <meta name="captcha-api-key" value="NcbTA2HVRjvm7SLW2SDe7Mu/VHdvi9RCd1GYSbWg/ijXLUeqvh3CSc3oyVh8E7veuD51RdVB86A4fPnLpJoRAWz60USrswireAL19DHsBIPNPVwxxNeGY5tD/bm1SKaospgk408V2N8pTRZJH7dpdfmbyA4YUv7Y4yMAElLM4l1QnTnMXmSN4v2Vbk+gLYPfYyMhy3ezqkaj4Daa/FXNQpUXn5dwWqwdmoX3BUneGZhZ2FaXXXPFfLXws+Fiw/w3mDY9BEbK8GtzY1T7+Puk1hokuqhB9EGXtUlgNhPjnr5C8RlV08EZKB/ktA8JxpnGHtnALAwhRlxCnobT45a+mhRuonxzpW6Ulhuxp5xERSPmiv2qXn15z1xRbRb8E3f+04U/VjKVRwVF5huD1boIYplHGowhyYyqUIDHZjUg5s9/YmTk7WQ5j4Mj0I7/9ZZhYpOaqVHQ2GzkM4tDPT85xpm2htOb9e9GknvA2SsGn0I5eL/+rnXh8TO11GNY3CQtxF1dOzsmqiN8BPreXPNluc1hqwwemSYOqT4ebiIO3YYnALoA37UVDvu9kNt5vPtNCBLVUBDiK7AqRoPgC2N+94lSlBpFFOqInWSRcN1hOU4dqtPWC38BGxDRGsk8ungxDsm5eWaNZaAZsWl1VFy4tc/BQr5J2sQ10L3jJKXeUeQ=_1_1" />
+                <meta name="anti-csrftoken-a2z" value="hExvY3RaV3h6K0pkNmduS28vamdFYnd0NUxKaFh6ZG9CZ8CsywAAAABiMDE0YWY4My1kMTNjLTQ2YzItYTY5Yi03MDdhZmQzYWVmNTY=" />
+              <meta name="provider" value="Google" />
+              <meta name="user-data" value="{&quot;city&quot;:&quot;Bengaluru&quot;,&quot;country&quot;:&quot;IN&quot;,&quot;email&quot;:&quot;sahana2004123@gmail.com&quot;,&quot;firstName&quot;:&quot;Sahana&quot;,&quot;lastName&quot;:&quot;L&quot;,&quot;creationDate&quot;:&quot;2025-02-22T08:59:29.308Z&quot;}" />
+              <meta name="marketo-config" value="{&quot;baseUrl&quot;:&quot;https://pages.awscloud.com&quot;,&quot;munchkinId&quot;:&quot;112-TZM-766&quot;,&quot;formId&quot;:70202}" />
+    
+    <link rel="icon" type="image/x-icon" href="/assets/e4257e70d0c9e40b4990/favicon.ico" />
+  
+    <link rel="preload" href="/assets/e4257e70d0c9e40b4990/fonts/dm-sans-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="/assets/e4257e70d0c9e40b4990/fonts/dm-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="/assets/e4257e70d0c9e40b4990/fonts/dm-sans-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="/assets/e4257e70d0c9e40b4990/fonts/dm-sans-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="/assets/e4257e70d0c9e40b4990/fonts/dm-sans-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="/assets/e4257e70d0c9e40b4990/fonts/dm-mono-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="/assets/e4257e70d0c9e40b4990/fonts/dm-mono-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+
+          <script defer type="text/javascript" nonce="wJWm1AtK+WNAGybFG3xcZg==" src="https://aaeb641c9260.edge.captcha-sdk.awswaf.com/aaeb641c9260/jsapi.js" data-awswaf-challenge-compact></script>
+        
+                <script async  nonce="wJWm1AtK+WNAGybFG3xcZg==" src="https://pages.awscloud.com/js/forms2/js/forms2.min.js"></script>
+    
+    <style nonce="wJWm1AtK+WNAGybFG3xcZg==">
+
+      @font-face {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 300;
+        src: url("/assets/e4257e70d0c9e40b4990/fonts/dm-sans-latin-300-normal.woff2") format("woff2");
+        font-display: swap;
+      }
+
+
+      @font-face {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        src: url("/assets/e4257e70d0c9e40b4990/fonts/dm-sans-latin-400-normal.woff2") format("woff2");
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 500;
+        src: url("/assets/e4257e70d0c9e40b4990/fonts/dm-sans-latin-500-normal.woff2") format("woff2");
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 600;
+        src: url("/assets/e4257e70d0c9e40b4990/fonts/dm-sans-latin-600-normal.woff2") format("woff2");
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 700;
+        src: url("/assets/e4257e70d0c9e40b4990/fonts/dm-sans-latin-700-normal.woff2") format("woff2");
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "DM Mono";
+        src: url("/assets/e4257e70d0c9e40b4990/fonts/dm-mono-latin-400-normal.woff2") format("woff2");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "DM Mono";
+        src: url("/assets/e4257e70d0c9e40b4990/fonts/dm-mono-latin-500-normal.woff2") format("woff2");
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @layer core, extensions, theme, components, classes;
+    </style>
+  </head>
+
+
+  <body>
+    <div id="root"></div>
+          <script nonce="wJWm1AtK+WNAGybFG3xcZg==" type="module" src="/website/e4257e70d0c9e40b4990/index.js"></script>
+      <link nonce="wJWm1AtK+WNAGybFG3xcZg==" rel="stylesheet" type="text/css" href="/website/e4257e70d0c9e40b4990/index.css" />
+     
+  </body>
+</html>
